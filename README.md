@@ -8,3 +8,5 @@ For UC-10 :
 
 5. For UC-11 :
 6. Create JUnit Parameterised Test to validate multiple entry for the Email Address.
+7. For UC-12 :
+8. Create Test cases by using Exception handling and ENUM.

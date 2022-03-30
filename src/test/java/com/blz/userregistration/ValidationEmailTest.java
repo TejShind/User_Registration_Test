@@ -55,7 +55,7 @@ public class ValidationEmailTest {
     }
 
     @Test
-    public void givenEmailIds_WithDifferentScenariosShouldReturnExpectedResult() {
+    public void givenEmailIds_WithDifferentScenariosShouldReturnExpectedResult() throws UserRegistrationException {
         boolean result = userRegistration.validateEmail(this.emailId);
         Assert.assertEquals(result, this.expectedResult);
     }
